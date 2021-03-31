@@ -85,6 +85,7 @@ function start_stop() {
     // Apply the current minute and seconds and run the timer from there
   } else if (statusButton.innerText === "Break-continue") {
 
+    timerMessage.innerHTML = "Break timer is continue"
     let minutes = parseFloat(document.getElementById("minutes").innerHTML);
     let seconds = parseFloat(document.getElementById("seconds").innerHTML);
 
